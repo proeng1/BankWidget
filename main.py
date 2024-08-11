@@ -1,5 +1,6 @@
 from src.widget import mask_account_card
 
+
 def main():
     card_number = input("Enter your card number: ")
     account_number = input("Enter your account number: ")
@@ -11,6 +12,7 @@ def main():
     print(f"Masked card number: {masked_card}")
     print(f"Original account number: {account_number}")
     print(f"Masked account number: {masked_account}")
+
 
 if __name__ == "__main__":
     main()
